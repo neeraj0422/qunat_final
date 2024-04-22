@@ -1,0 +1,17 @@
+.p-password-input {
+  width: 100%;
+}
+.p-button {
+  font-size: 12px;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.image-preview {
+  margin-top: 5px;
+}
+
+.image-preview img {
+  width: 100px;
+  height: 100px;
+}

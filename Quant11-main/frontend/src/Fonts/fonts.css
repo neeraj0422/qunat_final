@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'ClashDisplayRegular';
+  src:
+    local('ClashDisplayRegular'),
+    url(./ClashDisplay-Regular.ttf) format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'PlusJakartaSansRegular';
+  src:
+    local('PlusJakartaSansRegular'),
+    url(./PlusJakartaSans-Regular.ttf) format('truetype');
+  font-display: swap;
+}

@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+.env
+public/uploads/*
+.idea
+.editorconfig
+.DS_Store
+build
