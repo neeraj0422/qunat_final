@@ -21,7 +21,7 @@ function authenticateToken(req, res, next) {
       ? authHeader.split(" ")[1].trim()
       : authHeader;
   // Verify the token
-  jwt.verify(token,  process.env.JWT_ADMIN_SECRET_KEY, (err, user) => {
+  jwt.verify(token,  'MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCbofkfgt+r/U10', (err, user) => {
     if (err) {
       return res.status(STATUS_CODES.UNAUTHORIZED).json({
         data: null,
@@ -63,7 +63,7 @@ function authenticateAdminToken(req, res, next) {
       : authHeader;
 
   // Verify the token
-  jwt.verify(token, process.env.JWT_ADMIN_SECRET_KEY, (err, admin) => {
+  jwt.verify(token, 'MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCbofkfgt+r/U10', (err, admin) => {
     if (err) {
       return res.status(STATUS_CODES.UNAUTHORIZED).json({
         data: null,

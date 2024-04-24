@@ -142,8 +142,8 @@ const signup = async (req, res) => {
     // Generate JWT token
     const token = jwt.sign(
       { email: newUser.email, user_id: newUser._id },
-      process.env.JWT_SECRET_KEY,
-      { expiresIn: process.env.JWT_EXPIRATION }
+      'MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCbofkfgt+r/U10',
+      { expiresIn: 360000 }
     );
 
     const response = getCommonSuccessResponse(

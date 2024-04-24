@@ -27,8 +27,8 @@ const checkAdminLogin = async (req, res) => {
         // Generate JWT token
         const token = jwt.sign(
           { email: existingAdmin.email, user_id: existingAdmin._id },
-          process.env.JWT_ADMIN_SECRET_KEY,
-          { expiresIn: process.env.JWT_EXPIRATION }
+          'MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCbofkfgt+r/U10',
+          { expiresIn: 360000 }
         );
 
         const adminResponseData = {

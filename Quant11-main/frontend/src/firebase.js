@@ -22,7 +22,7 @@ export const fetchToken = async (setTokenFound, token) => {
   return getToken(messaging, { vapidKey: vapidKey })
     .then(async (currentToken) => {
       if (currentToken) {
-        await fetch(`http://localhost:8080/api/v1/device-token`, {
+        await fetch(`https://qunat-final-1.onrender.com/api/v1/device-token`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

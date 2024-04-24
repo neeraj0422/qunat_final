@@ -14,7 +14,7 @@ const cron = require("node-cron");
 const admin = require('./firebase-admin'); // Import the initialized Firebase Admin SDK instance
 
 let corsOptions = {
-  origin: process.env.CORS_ORIGIN,
+  origin: 'http://localhost:8081',
 };
 const app = express();
 

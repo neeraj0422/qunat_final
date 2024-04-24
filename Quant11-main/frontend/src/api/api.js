@@ -1,7 +1,7 @@
 const apiRequest = async (url, method, data = {}, headers = {}) => {
   try {
     const queryString = new URLSearchParams(data).toString();
-    const apiUrl = `http://localhost:8080/${url}${
+    const apiUrl = `https://qunat-final-1.onrender.com/${url}${
       method === 'GET' && queryString ? `?${queryString}` : ''
     }`;
     let token = localStorage.getItem('authToken');
