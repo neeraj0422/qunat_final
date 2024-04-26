@@ -31,7 +31,7 @@ export class APIService extends Axios {
       return this._instance;
     }
     const config = {
-      baseURL: process.env.REACT_APP_API_BASEPATH,
+      baseURL: 'https://qunat-final-1.onrender.com/',
     };
     this._instance = new this(config);
     return this._instance;
