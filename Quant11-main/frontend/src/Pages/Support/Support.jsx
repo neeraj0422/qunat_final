@@ -29,22 +29,21 @@ const Support = () => {
     {
       question: '2. How do I personalize my trading signals?',
       answer:
-        'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+      'You can personalize your trading signals by setting specific parameters such as preferred assets, risk tolerance, and desired trading frequency within the app. This customization allows you to tailor the signals to align with your investment goals.'
     },
     {
       question: '3. Can I receive real-time alerts for trading signals?',
       answer:
-        'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+      'Yes, our platform provides real-time alerts for trading signals. You will receive instant notifications based on the criteria of trading strategy.'
     },
     {
       question: '4. Is my financial information secure?',
       answer:
-        'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-    },
+      'Ensuring the security of your financial information is our top priority'    },
     {
       question: '5. How can I get in touch with customer support?',
       answer:
-        'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+      'You can reach our customer support team through multiple channels, including email or phone.'
     }
   ];
 

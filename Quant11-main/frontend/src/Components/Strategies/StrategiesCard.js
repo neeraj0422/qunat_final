@@ -92,7 +92,7 @@ const StrategiesCard = ({ strategy }) => {
           <div className="strategyCard-desc">
             <div className="d-flex flex-column gap-2">
               <div>
-                Max DowDown:
+                Max Drawdown:
                 <span className="strategyCard-desc-value red-text"> {strategy.drawdown}%</span>
               </div>
               <div>
